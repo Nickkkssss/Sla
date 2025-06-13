@@ -1,8 +1,11 @@
-AtaqueHeroi = 5
-VidaVilao = 7
+Chuva = False
+Nublado = True
 
 
-if AtaqueHeroi > VidaVilao :
-  print "Heroi ganhou"
+if Chuva == True :
+  print "Levar guarda chuva"
 else:
-  print "Heroi perdeu"
+  if Nublado == True:
+    print "Levar guarda chuva"
+  else:
+    print "Nao levar guarda chuva"
