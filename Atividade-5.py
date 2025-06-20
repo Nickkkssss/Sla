@@ -3,6 +3,6 @@ VidaVilao = 7
 
 
 if AtaqueHeroi > VidaVilao :
-  print "Heroi ganhou"
+  print ("Heroi ganhou")
 else:
-  print "Heroi perdeu"
+  print ("Heroi perdeu")

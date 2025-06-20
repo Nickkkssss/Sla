@@ -3,9 +3,9 @@ Nublado = True
 
 
 if Chuva == True :
-  print "Levar guarda chuva"
+  print ("Levar guarda chuva")
 else:
   if Nublado == True:
-    print "Levar guarda chuva"
+    print ("Levar guarda chuva")
   else:
-    print "Nao levar guarda chuva"
+    print ("Nao levar guarda chuva")
