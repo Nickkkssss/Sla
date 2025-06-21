@@ -9,8 +9,10 @@ STORY = "This morning _ woke up feeling _. 'It is going to be a _ day!' Outside,
 
 print ("Mad Libs foi iniciado.")
 name = input("Enter a name: ")
-adjetivo1 = input("Enter a adjective: ")
-adjetivo2 = input("Enter a adjective 2: ")
-adjetivo3 = input("Enter a adjective 3: ")
-
-print (name + " " + adjetivo1 + " " + adjetivo2 + " " +  adjetivo3)
+adjetivo1 = input ("Enter a adjective: ")
+adjetivo2 = input ("Enter a adjective 2: ")
+adjetivo3 = input ("Enter a adjective 3: ")
+verbo = input ("Enter a verb: ")
+substantivo1 = input ("Enter a noun: ")
+substantivo2 = input ("Enter a noun2: ")
+print (name + " " + adjetivo1 + " " + adjetivo2 + " " +  adjetivo3 + " " + verbo + " " + substantivo1 + " " + substantivo2)
